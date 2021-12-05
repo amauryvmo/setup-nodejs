@@ -1,0 +1,31 @@
+{
+  "name": "setup-nodejs",
+  "version": "0.0.1",
+  "description": "Projeto de demonstração",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amauryvmo/setup-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "demo"
+  ],
+  "author": "Amaury Victor <amauryvmo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amauryvmo/setup-nodejs/issues"
+  },
+  "homepage": "https://github.com/amauryvmo/setup-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
